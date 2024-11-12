@@ -1,0 +1,31 @@
+pipeline {
+agent any
+stages {
+stage('Checkout'){
+steps{
+git 'https://github.com/denisjackman/web-sites.git'
+}
+}
+stage('Build'){
+steps{
+echo 'Building the website'
+}
+}
+stage('Tests'){
+steps{
+echo 'Testing the website'
+}
+}
+stage('Deploy'){
+steps{
+echo 'Deploying the website'
+}
+}
+}
+post{
+always{
+echo 'Pipeline complete!'
+}
+}
+}
+
