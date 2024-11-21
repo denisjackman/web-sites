@@ -1,0 +1,29 @@
+hr {color:black;}
+p {margin-left: 20px;}
+body {background-color: burlywood;}
+h1 {background-color: #6495ed;}
+h2 {background-color: chartreuse;}
+p {background-color: #e0ffff;}
+div {background-color: #b0c4de;}
+p {font-family: "Arial";}
+h1 {font-family: "Arial";}
+h2 {font-family: "Arial";}
+a:link {font-family: "Arial"; color:aliceblue}
+a:visited {font-family: "Arial";color: blue}
+a:hover {font-family: "Arial";color: green}
+a:active {font-family: "Arial"; color: red}
+ul {list-style-type: square; color: aliceblue}
+h2 {
+    color: red;
+    font-size: 40px;
+}
+
+h3 {
+    color: purple;
+    font-size: 50px;
+}
+
+h4 {
+    color: green;
+    font-size: 60px;
+}

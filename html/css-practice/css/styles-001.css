@@ -1,0 +1,83 @@
+h1 {
+    color: blue;
+    font-size: 100px;
+    font-family: Arial;
+    text-align: center;
+}
+p {
+    color: green;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+img {
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.red-text {
+    color: red;
+}
+.yellow-background-text {
+    background-color: yellow;
+}
+.black-img {
+    border: 5px dotted black;
+    border-radius: 10%;
+}
+
+.yellow-img {
+    border: 25px solid yellow;
+    border-radius: 50%;
+}
+
+.red-img {
+    border: 15px double red;
+}
+#my-first-id {
+    color: blue;
+}
+
+img:hover {
+    border: 10px solid red;
+}
+
+p:hover {
+    font-size: 100px;
+    color: red;
+}
+
+div {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+.div-1 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    font-size: 10px;
+    color: white;
+}
+
+.div-2 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    color: yellow;
+}
+
+.div-3 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    color: blue;
+}
+
+.yellow-div {
+    background-color: yellow;
+}
